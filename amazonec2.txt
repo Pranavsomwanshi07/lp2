@@ -1,0 +1,263 @@
+# Case Study on Amazon Web Services EC2
+
+## Introduction
+
+Amazon EC2 (Elastic Compute Cloud) is a web service provided by [Amazon Web Services (AWS)](https://aws.amazon.com?utm_source=chatgpt.com).
+It allows users to rent virtual computers (servers) on the cloud to run applications, websites, databases, and software.
+
+EC2 provides:
+
+* Virtual servers in the cloud
+* Scalable computing power
+* Secure and reliable infrastructure
+* Pay-as-you-use pricing
+
+---
+
+# What is Amazon EC2?
+
+Amazon EC2 is a cloud computing service that provides virtual machines called **Instances**.
+
+Instead of buying physical computers or servers, users can launch EC2 instances online and use them anytime.
+
+### Full Form
+
+EC2 = Elastic Compute Cloud
+
+### Main Purpose
+
+* Hosting websites
+* Running applications
+* Data storage and processing
+* Machine learning
+* Game servers
+* Business applications
+
+---
+
+# Features of Amazon EC2
+
+## 1. Elastic Scaling
+
+Users can increase or decrease server capacity according to demand.
+
+Example:
+
+* During festival sales, shopping websites need more servers.
+* After traffic decreases, servers can be reduced.
+
+---
+
+## 2. Pay-As-You-Go Pricing
+
+Users pay only for the resources they use.
+
+Benefits:
+
+* No need to buy expensive hardware
+* Cost saving
+* Suitable for startups and students
+
+---
+
+## 3. Multiple Operating Systems
+
+EC2 supports:
+
+* Linux
+* Windows
+* Ubuntu
+* Red Hat
+
+---
+
+## 4. Security
+
+AWS provides:
+
+* Firewalls
+* Security groups
+* Encryption
+* Access control using IAM
+
+---
+
+## 5. High Availability
+
+EC2 servers are available in multiple regions and availability zones.
+
+This helps:
+
+* Reduce downtime
+* Improve reliability
+* Ensure backup support
+
+---
+
+# Components of EC2
+
+| Component      | Description                                   |
+| -------------- | --------------------------------------------- |
+| Instance       | Virtual server                                |
+| AMI            | Amazon Machine Image used to create instances |
+| EBS            | Storage volume for EC2                        |
+| Security Group | Virtual firewall                              |
+| Key Pair       | Login authentication                          |
+| Elastic IP     | Static public IP address                      |
+
+---
+
+# Working of Amazon EC2
+
+## Step 1: Login to AWS
+
+Open AWS Management Console.
+
+[AWS Console](https://console.aws.amazon.com?utm_source=chatgpt.com)
+
+---
+
+## Step 2: Launch Instance
+
+Choose:
+
+* Operating System
+* Instance type
+* Storage
+* Security settings
+
+---
+
+## Step 3: Connect to Instance
+
+Use:
+
+* SSH for Linux
+* Remote Desktop for Windows
+
+---
+
+## Step 4: Deploy Application
+
+Install software or upload website/application files.
+
+---
+
+# Advantages of Amazon EC2
+
+## Easy to Use
+
+Simple web interface for launching servers.
+
+## Cost Effective
+
+No need for physical hardware.
+
+## Scalable
+
+Resources can be increased anytime.
+
+## Reliable
+
+AWS data centers provide high uptime.
+
+## Fast Deployment
+
+Server can be created within minutes.
+
+---
+
+# Disadvantages of Amazon EC2
+
+* Requires internet connection
+* Monthly cost may increase for large usage
+* Beginners may find configuration difficult
+
+---
+
+# Real-Life Applications
+
+| Industry   | Use of EC2                |
+| ---------- | ------------------------- |
+| E-commerce | Hosting online stores     |
+| Education  | Online learning platforms |
+| Gaming     | Multiplayer game servers  |
+| Healthcare | Medical data processing   |
+| Media      | Video streaming services  |
+
+---
+
+# Example Case Study
+
+## Company Example: Netflix
+
+Netflix uses AWS EC2 services to stream movies and web series globally.
+
+Benefits received by Netflix:
+
+* Automatic scaling
+* Fast content delivery
+* High availability
+* Better user experience
+
+---
+
+# Simple Architecture of EC2
+
+```text
+User → Internet → AWS EC2 Server → Application/Website
+```
+
+---
+
+# Conclusion
+
+Amazon EC2 is one of the most popular cloud computing services provided by AWS.
+It offers flexible, scalable, secure, and cost-effective virtual servers for businesses and developers.
+
+EC2 helps organizations:
+
+* Reduce hardware cost
+* Increase scalability
+* Improve reliability
+* Deploy applications quickly
+
+Because of these advantages, Amazon EC2 is widely used in modern cloud computing environments.
+
+---
+
+# Viva Questions and Answers
+
+## 1. What is Amazon EC2?
+
+Amazon EC2 is a cloud service that provides virtual servers on rent.
+
+---
+
+## 2. What is the full form of EC2?
+
+Elastic Compute Cloud.
+
+---
+
+## 3. What is an EC2 Instance?
+
+A virtual server running in AWS cloud.
+
+---
+
+## 4. What is AMI?
+
+Amazon Machine Image used to launch EC2 instances.
+
+---
+
+## 5. What is the main advantage of EC2?
+
+Scalability and pay-as-you-use pricing.
+
+---
+
+# Official AWS EC2 Page
+
+[Amazon EC2 Official Documentation](https://aws.amazon.com/ec2/?utm_source=chatgpt.com)
